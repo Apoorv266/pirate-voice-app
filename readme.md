@@ -8,13 +8,12 @@ Pirate voice translater
 
  # Technology used
 
- HTML, CSS, ReactJS
+ HTML, CSS, Javascript
 
   # Tools used
 
   Translation API ("https://api.funtranslations.com/")
 
- HTML, CSS, ReactJS
 
   # Live Project
 
