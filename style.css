@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+navbar{
+    background-color: #1B1A17;
+    width: 100vw;
+    height: 70px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    height: 649px;
+    background-color: #73777B;
+}
+
+#inputArea{
+    height: 80px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#outputBar{
+    height: 80px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-item{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: #1B1A17;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.footer{
+    background-color: #1B1A17;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .footer{
+       
+        width: 100vw;
+        height: 120px;
+    
+    }
+  }
